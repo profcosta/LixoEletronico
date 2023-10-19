@@ -20,10 +20,6 @@ section{
     width: 100%;
 }
 
-section1{
-    background-color orangered;
-    border: 2px orangered;
-}
 
 h2 {
     font-size: 36px;
@@ -104,18 +100,18 @@ nav ul li a {
 .banner-content h1 {
     position: absolute;
     font-size: 60px;
-    color: #fff;
-    right: 10px;
+    color:#fff;
+    right: -170px;
     width: 50%;
-    top: 50px;
+    top: 0px;
 }
 
 .banner-content ul {
     position: absolute;
     font-size: 18px;
     color: #fff;
-    top: 150px;
-    right: 10px;
+    top: 100px;
+    right: -170px;
     width: 50%;
     list-style: none;
     text-align: center;
@@ -130,10 +126,11 @@ nav ul li a {
 }
 
 #rodape {
-    background-color: #333;
-    color: #fff;
+   
+    color: black;
     text-align: center;
     padding: 10px;
+   
 }
 
 .divide {  
@@ -161,3 +158,30 @@ nav ul li a {
     width: 100%;
     border-radius: 30px;
 }
+
+.texto2 p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#rodape p {
+    text-align: center;
+}
+
+.texto3 {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.rodape img {
+    height: auto;
+    margin-right: 20px;
+    margin-left: 40px;
+
+}
+
+#rodape p {
+    margin-top: 10px;
+}
+
