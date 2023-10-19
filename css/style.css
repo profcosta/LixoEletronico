@@ -1,0 +1,163 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos principais */
+
+body{
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    flex-wrap: wrap;
+}
+
+section{
+    width: 100%;
+}
+
+section1{
+    background-color orangered;
+    border: 2px orangered;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/* Estilos para o header e menu */
+header {  
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.texto {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.texto p {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.texto div{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#problema, #solucoes{
+    background-color: #1a237e;
+    color: #fff;
+    margin: 20px;
+}
+
+#solucoes img{
+    width: 200px;
+    position: relative;
+    
+}
+
+.banner-content {
+    position: relative;
+    text-align: center;
+}
+
+.banner-content img {
+    width: 100%;
+}
+
+.banner-content h1 {
+    position: absolute;
+    font-size: 60px;
+    color: #fff;
+    right: 10px;
+    width: 50%;
+    top: 50px;
+}
+
+.banner-content ul {
+    position: absolute;
+    font-size: 18px;
+    color: #fff;
+    top: 150px;
+    right: 10px;
+    width: 50%;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.banner-content ul :first-child{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.divide {  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divide div{
+    width: 50%;
+}
+
+.divide p{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.divide li{
+    margin-left: 40px;
+    padding-left: 10px;
+}
+
+#solucoes img{
+    width: 100%;
+    border-radius: 30px;
+}
